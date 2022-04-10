@@ -1,7 +1,27 @@
-body {
+body,
+a {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 22px;
+  text-align: center;
   color: seashell;
   background-color: black;
   opacity: 0.9;
+}
+
+/* nav */
+
+nav ul {
+  height: 69px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+}
+
+.logo {
+  height: 50px;
 }
