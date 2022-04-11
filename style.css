@@ -22,6 +22,11 @@ nav ul {
   border-bottom: 1px solid seashell;
 }
 
-.logo {
+.logo img {
   height: 50px;
+}
+
+li.logo {
+  text-align: justify;
+  flex-grow: 0.8;
 }
