@@ -1,4 +1,3 @@
-/* layout */
 body,
 a {
   font-family: Helvetica, Arial, sans-serif;
@@ -48,4 +47,9 @@ li.logo {
   background-color: black;
   height: fit-content;
   width: 100%;
+}
+
+#featured-tea {
+  width: 1000px;
+  display: flex;
 }
