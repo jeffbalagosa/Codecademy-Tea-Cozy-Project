@@ -8,6 +8,10 @@ a {
   opacity: 0.9;
 }
 
+section#locations {
+  margin-top: 3em;
+}
+
 /* nav */
 
 nav ul {
@@ -49,7 +53,24 @@ li.logo {
   width: 100%;
 }
 
-#featured-tea {
+/* featured tea section */
+
+section#featured-tea {
   width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 0.5em;
+}
+
+.card img {
+  height: 200px;
+  width: 300px;
+}
+
+.flex-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
