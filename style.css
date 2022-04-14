@@ -82,4 +82,21 @@ section#featured-tea {
   width: 1200px;
   background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
   margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+#locations h2 {
+  width: 100%;
+}
+
+#locations article.card {
+  width: 300px;
+  background-color: #000;
+  opacity: 1;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-right: 15px;
 }
