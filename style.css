@@ -105,3 +105,13 @@ section#featured-tea {
   margin-right: 40px;
   margin-top: 0px;
 }
+
+/* contact section */
+
+section#contact a {
+  text-decoration: none;
+}
+
+section#contact a:hover {
+  text-decoration: underline;
+}
