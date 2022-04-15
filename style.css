@@ -115,3 +115,14 @@ section#contact a {
 section#contact a:hover {
   text-decoration: underline;
 }
+
+/* footer section */
+
+footer {
+  display: flex;
+}
+
+footer h5 {
+  margin-left: 20px;
+  justify-content: left;
+}
